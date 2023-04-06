@@ -21,7 +21,7 @@ public class LocatorsDemo1 {
 //		browser.findElement(By.linkText("Blouse")).click();  // Complete value of link text
 		browser.findElement(By.partialLinkText("Faded Short Sleeve")).click(); // Partial text of the linktext. DO NOT USE BECAUSE CAN HAVE MULTIPLE ELEMENTS.
 		
-		
+
 //		Close
 		try {
 			Thread.sleep(6000);
@@ -30,11 +30,5 @@ public class LocatorsDemo1 {
 			e.printStackTrace();
 		}
 		browser.quit();
-		
-		
-		
-		
-		
-		
 	}
 }
