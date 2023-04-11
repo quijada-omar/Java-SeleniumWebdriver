@@ -1,0 +1,8 @@
+
+
+How to write an Xpath
+
+	//*[@attribute='value']
+	//tagname[@attribute='value']
+
+	
