@@ -50,7 +50,8 @@ public class XpathAxes {
 		System.out.println("Number of the precedings: "+ precedings.size());
 		
 //		Preceding sibling - Selects all the siblings before the current node
-		List<WebElement> precedingSiblings = driver.findElements(By.xpath(xpath1+"/ancestor::tr/preceding-sibling::tr"));		System.out.println("Number of the preceding-siblibgs: "+ precedingSiblings);
+		List<WebElement> precedingSiblings = driver.findElements(By.xpath(xpath1+"/ancestor::tr/preceding-sibling::tr"));	
+		System.out.println("Number of the preceding-siblibgs: "+ precedingSiblings);
 		driver.close();
 	}
 }
